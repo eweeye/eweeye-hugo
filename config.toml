@@ -1,0 +1,22 @@
+baseURL = "https://eweeye.github.io"
+languageCode = "en-ca"
+title = "EweEye (UI) Library"
+MetaDataFormat = "toml"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+copyright = "Scott D Hodgson"
+theme = "eweeye"
+[languages]
+  [languages.en]
+    title = "EweEye"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+  [languages.fr]
+    title = "EweEye"
+    languageName = "Français"
+    contentDir = "content/fr"    
+    weight = 2
+[languages.en.taxonomies]
+  tag = "tags"
+[languages.fr.taxonomies]
