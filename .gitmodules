@@ -1,0 +1,12 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/eweeye/eweeye.github.io
+	branch = master
+[submodule "themes/eweeye"]
+	path = themes/eweeye
+	url = https://github.com/eweeye/eweeye-hugo-theme
+	branch = master
+[submodule "content"]
+	path = content
+	url = https://github.com/eweeye/eweeye-hugo-content.git
+	branch = master
